@@ -60,7 +60,7 @@ Output: high frequency component blocked, low frequency passes cleanly.
 | Impulse Response | Verified — matches coefficients exactly |
 | Step Response | Stable — smooth ramp and settle |
 
-![Frequency Response and Filter Verification](results/fir_results.png)
+![Frequency Response and Filter Verification](fir_results.png)
 
 ## Repository Structure
 ```
