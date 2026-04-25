@@ -63,19 +63,20 @@ Output: high frequency component blocked, low frequency passes cleanly.
 ![Frequency Response and Filter Verification](results/fir_results.png)
 
 ## Repository Structure
+```
 fir-filter-vhdl/
 ├── src/
-│   └── fir_filter.vhd          # Filter core (parameterised)
+│   └── fir_filter.vhd
 ├── tb/
-│   └── fir_filter_tb.vhd       # Testbench (3 test cases)
+│   └── fir_filter_tb.vhd
 ├── scripts/
-│   └── fir_coeffs.py           # Coefficient generator + SNR analysis
+│   └── fir_coeffs.py
 └── results/
-├── fir_results.png          # Frequency response + signal plots
-├── 1_impulse_response.png   # GTKWave — impulse verification
-├── 2_step_response.png      # GTKWave — step response
-└── 3_noisy_sine.png         # GTKWave — noisy sine filtering
-
+    ├── fir_results.png
+    ├── 1_impulse_response.png
+    ├── 2_step_response.png
+    └── 3_noisy_sine.png
+```
 ## How to Simulate
 ### Requirements
 - GHDL 0.37+
